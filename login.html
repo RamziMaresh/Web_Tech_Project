@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+    <header id="header_container">
+      <nav id="navbar">
+        <a href="index.html" id="logo">
+          <img src="images/Logo.png" title="HomePage" width="65  px" height="65px">
+          </a>
+        <ul id="ulist">
+          <li class="listD"> <a href="sessions.html" class="linkD">SESSIONS</a></li>
+          <li class="listD"> <a href="submission.html" class="linkD">SUBMISSION</a></li>
+          <li class="listD"> <a href="package.html" class="linkD">FEES & REGISTRATION</a></li>
+          <li class="listD"> <a href="speakers & committee.html" class="linkD">SPEAKERS & COMMITTEE</a></li>
+          <li class="listD"> <a href="contactA.html" class="linkD">CONTACT US</a></li>
+          <li class="listD"> <a href="login.html" class="linkD">Login</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+      <div id="container">
+        <div id="tabs">
+            <p id="lt" class="tabs" onclick="loginTabFun()">Log in</p>
+            <p id="rt" class="tabs" onclick="regTabFun()">Register</p>
+
+            <div id="clear"></div>
+        </div>
+
+        <div id="cont">
+            <div id="login" class="comm">
+                <h3 id="signin">Sign in</h3>
+
+                <input id="se" type="email" placeholder="Email" required/>
+                <input id="sp" type="password" placeholder="Password" required/>
+                <input type="submit" onclick="login()" value="Submit"/>
+
+                <p onclick="forTabFun()">Forget Password?</p>
+            </div>
+            <div id="register" class="comm">
+                <h3>Register</h3>
+
+                <input id="re" type="email" placeholder="Email" required/>
+                <input id="rp" type="password" placeholder="Password" required/>
+                <input id="rrp" type="password" placeholder="Re write Password" required/>
+                <input type="submit" onclick="register()" value="Submit"/>
+
+            </div >
+            <div id="forgot" class="comm">
+            <h3>Forgot Password</h3>
+            <div>
+                <input id="fe" type="email" placeholder="Email" required/>
+                <input type="submit" onclick="forgot()" value="Submit"/>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="footer_box">
+        <ul>
+          <li class="ulh"> <h4>ICTM:</h4> </li>
+          <ul>
+            <li  class="fotlist"> <a href="under.html" class="fotlink">Programs</a> </li>
+            <li  class="fotlist"> <a href="sessions.html" class="fotlink">Sessions</a></li>
+            <li  class="fotlist"> <a href="submission.html" class="fotlink">Submission</a> </li>
+            <li  class="fotlist"> <a href="package.html" class="fotlink">Fes & Registration</a> </li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="footer_box">
+        <ul>
+          <li class="ulh"> <h4>About:</h4> </li>
+          <ul>
+            <li  class="fotlist"> <a href="speakers & committee.html" class="fotlink">Speakers & Committee</a> </li>
+            <li  class="fotlist"> <a href="contact.html" class="fotlink">Contact us</a> </li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="copyrights">
+        <p>Privacy policy</p>
+        <p>Disclaimer</p>
+        <p>CopyRights</p>
+      </div>
+    </footer>
+
+    <script src="javascript/login.js"></script>
+  </body>
+</html>
