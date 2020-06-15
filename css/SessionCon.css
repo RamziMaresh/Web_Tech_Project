@@ -1,0 +1,174 @@
+*{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  min-width: 1000px;
+  width: 100%;
+  background-image:url("../images/Art-Dark-Background.jpg");
+  font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #000;
+  background-size: cover;
+}
+
+
+#header_container{  /*/ The header part navigation /*/
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 78px;
+  z-index: +1;
+}
+
+#logo{   /*/ logo part  /*/
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width:65px;
+  height:65px;
+}
+
+#navbar{
+    margin: 0 auto;
+}
+
+.listD{  /*/ the header navig part the programs and... possition /*/
+  position: relative;
+  display: inline;
+  top: 30px;
+  left: 220px;
+  padding: 8px;   /*/ right or left moving..../*/
+}
+
+
+.linkD{   /*/ the color and font and ..... header navigation /*/
+  text-decoration: none;
+  color: rgba(255, 217, 105, 0.9);
+  padding: 7px 7px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.20s ease;
+}
+
+.linkD:hover{             /*/?????????/*/
+  transition: 0.35s;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 7px 7px;
+  color: black;
+  background-color: rgba(255, 217, 105, 0.9);
+  border-radius: 15px;
+}
+
+
+
+
+.header{
+  color:white;
+  text-align: center;
+}
+
+.head_title{
+  color: white;
+  text-align: center;
+}
+
+div.transbox {
+  position: relative;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 300px;
+  padding: 50px;
+  position: static;
+  opacity: 0.9;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+div.transbox p {
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
+  padding: 5px;
+}
+
+.btn {
+  background-color: rgba(255, 217, 105, 0.9);
+  border: none;
+  color: white;
+  padding: 12px 100px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgba(255, 250, 105, 0.9);
+}
+
+.footer{
+  background : url("../images/FooterImg.jpg");
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: white;
+  text-align: center;
+  object-fit:cover;
+}
+
+
+.footer_box{
+  position: relative;
+  display: inline-block;
+  width: 310px;
+  height: 150px;
+  text-align: left;
+
+}
+
+.ulh{
+  font-size: 20px;
+  list-style:none;
+  font-weight: bold;
+}
+
+.fotlist{
+  list-style: none;
+  padding-top: 10px;
+}
+
+.fotlink{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.copyrights{
+  position: relative;
+  font-weight: bold;
+  left: 35%;
+  bottom: 5px;
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+
+.copyrights p{
+  display: inline;
+  padding-left: 15px;
+}
